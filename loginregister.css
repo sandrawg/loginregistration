@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 100%;
+	height: 100%;
+}
+.logo{
+	text-align: left;
+}
+.logo img{
+	width: 80px;
+	height: 50px;
+	margin-left: 40px;
+}
+.navbar input[type=text] {
+  float: right;
+  padding: 6px;
+  border: solid;
+  border-color: burlywood;
+  margin-top: 8px;
+  margin-right: 400px;
+  font-size: 17px;
+  }
+.navbar{
+ 	text-align: right;
+ 	width: 100%;
+ 	padding: 35px 0;
+ 	align-items: center;
+ 	justify-content: space-between;
+ 	float: left;
+}
+.navbar h2{
+	text-align: left;
+	font-family: cursive;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	flex: 1;
+	margin-right: 30px;
+}
+
+.form-box{
+	width: 380px;
+	height: 480px;
+	position: relative;
+	margin: 6% auto;
+	padding: 5px;
+	overflow: hidden;
+	background-color: burlywood;
+}
+.button-box{
+	width: 220px;
+	margin: 35px;
+	position: relative;
+	border-radius: 30px;
+}
+.actionbtn{
+	left: 50px;
+	padding: 10px 30px;
+	cursor: pointer;
+	border: 0;
+	outline: none;
+	position: relative;
+
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	border-radius: 30px;
+	transition:.5s ;
+}
+.icons{
+	margin: 30px auto;
+	text-align: center;
+}
+.icons img{
+	width: 30px;
+	height: 30px;
+	margin-left: 20px;
+}
+.inputgroup{
+	top: 180px;
+	position: absolute;
+	width:280px ;
+	transition: .5s;
+}
+.inputfield{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-top: 0;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submitbtn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+.check-box{
+	margin: 30px 10px 30px 0;
+}
+.span{
+	font-size: 12px;
+}
+#login{
+	left:50px ;
+}
+#register{
+	left: 450px;
+}
+
+.images-right img{
+	width: 200px;
+	height: 250px;
+	margin-left: 800px;
+	margin-top: 20px;
+}
+.images-left img{
+	width: 200px;
+	height: 250px;
+	margin-right: 800px;
+	margin-top: 20px;
+}
+.images-right{
+	margin-top: -800px;
+}
+.images-left{
+	margin-top: -800px;
+	margin-left: 50px;
+}
+
+.footer{
+	padding: 50px 0;
+}
+.footer h5{
+	content: '';
+	color: saddlebrown;
+	height: 3px;
+	box-sizing: border-box ;
+	margin-left: 80px;
+}
+.footer a{
+	color: saddlebrown;
+}
+.footer img{
+	width: 20px;
+	height: 20px;
+}
+
+
